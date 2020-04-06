@@ -1,0 +1,47 @@
+html{
+  height: 100%;
+}
+
+body{
+    background:rgb(215, 215, 255);
+    font-family:Calibri, sans-serif;
+}
+
+nav{
+    position: relative;
+    display: flex;
+}
+
+nav li{
+    list-style-type: none;
+    margin: auto;
+}
+
+nav a{
+    padding: 2px 100px;
+    text-decoration: none;
+}
+
+nav li:not(:first-child){
+    border-left: 2px solid tomato;
+}
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    background: #42A5F5;
+    color: white;
+  	text-align:center;
+}
+
+footer:hover{
+    background-color:#3390FF;
+}
